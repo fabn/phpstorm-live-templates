@@ -246,5 +246,23 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="putex" value="/**&#10; * Test for $method$&#10; *&#10; * @expectedException $exception$&#10; */&#10;public function test$UCFmethod$()&#10;{&#10;    $END$&#10;}&#10;" description="PHPUnit test skeleton with expected exception" toReformat="true" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="&quot;what are you testing&quot;" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="&quot;expected exception class&quot;" alwaysStopAt="true" />
+    <variable name="UCFmethod" expression="capitalize(method)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
