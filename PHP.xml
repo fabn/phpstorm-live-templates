@@ -150,5 +150,101 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="put" value="/**&#10; * Test for $method$&#10; */&#10;public function test$UCFmethod$()&#10;{&#10;    $END$&#10;}&#10;" description="PHPUnit test skeleton" toReformat="true" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="&quot;what are you testing&quot;" alwaysStopAt="true" />
+    <variable name="UCFmethod" expression="capitalize(method)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="pusu" value="/**&#10; * Sets up the fixture, for example, open a network connection.&#10; * This method is called before a test is executed.&#10; *&#10; */&#10;protected function setUp()&#10;{&#10;    parent::setUp();&#10;    $END$&#10;}&#10;" description="PHPUnit setUp" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="putd" value="/**&#10; * Tears down the fixture, for example, close a network connection.&#10; * This method is called after a test is executed.&#10; */&#10;protected function tearDown()&#10;{&#10;    $END$&#10;    parent::tearDown();&#10;}&#10;" description="PHPUnit tearDown" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="putdc" value="/**&#10; * This method is called after the last test of this test class is run.&#10; *&#10; * @since Method available since Release 3.4.0&#10; */&#10;public static function tearDownAfterClass()&#10;{&#10;    $END$&#10;}&#10;" description="PHPUnit tearDownAfterClass" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="pusuc" value="/**&#10; * This method is called before the first test of this test class is run.&#10; *&#10; * @since Method available since Release 3.4.0&#10; */&#10;public static function setUpBeforeClass()&#10;{&#10;    $END$&#10;}&#10;" description="PHPUnit setUpBeforeClass" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="putdp" value="/**&#10; * Test for $method$&#10; *&#10; * @dataProvider $dataProvider$&#10; *&#10; * @param type $arg1$&#10; */&#10;public function test$UCFmethod$($arg1$)&#10;{&#10;    $END$&#10;}&#10;" description="PHPUnit test skeleton with data provider" toReformat="true" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="&quot;what are you testing&quot;" alwaysStopAt="true" />
+    <variable name="dataProvider" expression="" defaultValue="&quot;data provider function&quot;" alwaysStopAt="true" />
+    <variable name="UCFmethod" expression="capitalize(method)" defaultValue="" alwaysStopAt="false" />
+    <variable name="arg1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
