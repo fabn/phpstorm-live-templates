@@ -69,5 +69,86 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="if" value="if ($condition$) {&#10;    $END$&#10;}&#10;" description="Simple if" toReformat="true" toShortenFQNames="true">
+    <variable name="condition" expression="&quot;expression&quot;" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ife" value="if ($condition$) {&#10;    $END$&#10;} else {&#10;}&#10;" description="Simple if/else" toReformat="true" toShortenFQNames="true">
+    <variable name="condition" expression="&quot;expression&quot;" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="swt" value="switch ($expression$) {&#10;    case $value1$:&#10;        $END$&#10;        break;&#10;    default:&#10;}&#10;" description="Switch/case/default" toReformat="true" toShortenFQNames="true">
+    <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
+    <variable name="value1" expression="" defaultValue="&quot;value1&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="qts" value="'$SELECTION$'$END$" description="Single quotes" toReformat="true" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="dqts" value="&quot;$SELECTION$&quot;$END$" description="Double quotes" toReformat="true" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
